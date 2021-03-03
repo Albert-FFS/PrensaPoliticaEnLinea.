@@ -1,0 +1,98 @@
+:root{
+    --Color1:#000000;
+    --Color2:#303030;
+    --Color3:#5b5b5b;
+    --Color4:#1a237e;
+    --Color5:#5c6bc5;
+    --Color6:#9fa8da;
+    --Color7:#c5cae9;
+    --Color8:#FFFFFF;
+}
+h1{
+    color:  var(--Color7);
+    font-size: 2.3em;
+}
+#Logo{
+    height: 6em;
+}
+#Body{
+    position: relative;
+}
+#SidebarLeft{
+    position: absolute;
+    margin:1%;
+    padding:10px;
+    width: 15%;
+    right:5%;
+    height:250px;
+}
+#Main{
+    position: relative;
+    width: 70%;
+}
+#SidebarRight{
+    position: absolute;
+    height:250px;
+    margin-right: 1%;
+    top: 300px;
+    right:5%;
+}
+.Cards h3{
+    font-size: 0.5em;
+    z-index: 1;
+    background:  var(--Color6);
+}
+.Cards a h2{
+    font-size: 1.25em;
+}
+.Cards a p{
+    font-size: 0.9em;
+}
+.ImgCard{
+    z-index: 0;
+    width: 60vw;
+}
+.ImgCard:hover ~ h2{
+    transform: translateY(-5em);
+}
+.ImgCard:hover ~ p{
+    transform: translateY(-6em);
+}
+.SocialMedia{
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+.SocialMedia:hover::before{
+    border-left: 2px solid;
+    border-right: 2px solid;
+}
+.SocialMedia:hover::after{
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+#Note{
+    width: 98%;
+    margin: 2%;
+}
+#Note h2{
+    font-size: 1.6em;
+    padding: 1em 0;
+}
+#Note h3{
+    right: -26%;
+}
+#Note p{
+    font-size: 1.2em;
+}
+#Note iframe{
+    width: 480px;
+    height: 270px;
+    margin: 3% 1%;
+}
+#Home{
+    font-size: 1.5em;
+    margin: 0.75em;
+    padding: 0.75em;
+}

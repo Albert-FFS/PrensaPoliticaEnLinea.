@@ -1,0 +1,98 @@
+:root{
+    --Color1:#000000;
+    --Color2:#303030;
+    --Color3:#5b5b5b;
+    --Color4:#1a237e;
+    --Color5:#5c6bc5;
+    --Color6:#9fa8da;
+    --Color7:#c5cae9;
+    --Color8:#FFFFFF;
+}
+#Header{
+    height: 25vh;
+}
+#Header h1{
+    color:  var(--Color7);
+    font-size: 1em;
+}
+#Logo{
+    height: 3em;
+}
+#Body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 1%;
+    position: relative;
+}
+#SidebarLeft{
+    width: 80%;
+    height:5vh;
+    position: relative;
+    right: 0;
+}
+#Main{
+    width: 80%;    
+}
+.Cards h3{
+    font-size: 0.2em;
+    z-index: 1;
+    background:  var(--Color6);
+}
+.Cards a h2{
+    font-size: 0.75em;
+}
+.Cards a p{
+    font-size: 0.5em;
+}
+.ImgCard{
+    z-index: 0;
+    width: 60vw;
+}
+#SidebarRight{
+    width: 80%;
+    height: 5vh;
+    position: relative;
+    top: 0;
+    right:0;
+}
+.SocialMedia{
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+    line-height: 20px;
+}
+.SocialMedia:hover::before{
+    border-left: 0.8px solid;
+    border-right: 0.8px solid;
+}
+.SocialMedia:hover::after{
+    border-top: 0.8px solid;
+    border-bottom: 0.8px solid;
+}
+#Note{
+    width: 98%;
+    margin: 2%;
+}
+#Note h2{
+    font-size: 1.2em;
+    padding: 1em 0;
+}
+#Note h3{
+    right: -22%;
+}
+#Note p{
+    font-size: 0.9em;
+}
+#Note iframe{
+    width: 100%;
+    margin: 3% 1%;
+}
+#Home{
+    font-size: 1em;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+

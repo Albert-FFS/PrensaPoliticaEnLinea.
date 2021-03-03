@@ -1,0 +1,83 @@
+:root{
+    --Color1:#000000;
+    --Color2:#303030;
+    --Color3:#5b5b5b;
+    --Color4:#1a237e;
+    --Color5:#5c6bc5;
+    --Color6:#9fa8da;
+    --Color7:#c5cae9;
+    --Color8:#FFFFFF;
+}
+h1{
+    color:  var(--Color7);
+    font-size: 3.7em;
+}
+#Logo{
+    height: 10em;
+}
+.Cards h3{
+    font-size: 1em;
+    z-index: 1;
+    background:  var(--Color6);
+    border-radius: 0.2em;
+    padding:0.2em 1em ;
+}
+.Cards a h2{    
+    font-size: 1em;
+}
+.ImgCard{
+    z-index: 0;
+    width: 60vw;
+}
+#Note{
+    width: 95%;
+    margin: 3vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: var(--Color6);
+    border-radius: 5%;
+    transition: 5s linear;
+    overflow: hidden;
+    padding: 3% 2%;
+}
+#Note h2{
+    font-size: 2em;
+    text-align: center;
+    display:block;
+}
+#Note h3{
+    font-size: .7em;
+    position: relative;
+    right: -30%;
+    display:block;
+}
+#Note img{
+    background-size: cover;
+    width: 100%;
+}
+#Note #Perfil{
+    width: 30%;
+    display: block;
+    margin: 1em 1.2em;
+}
+#Note p{
+    margin: 5% 2%;
+    font-size: 1em;
+}
+#Note p span{
+    
+}
+#Note iframe{
+    width: 480px;
+    height: 270px;
+    margin: 3% 1%;
+}
+#Home{
+    font-size: 2em;
+    margin: 1em;
+    padding: 1em;
+}
