@@ -12,6 +12,7 @@
     --Color10:#565656;
     --Color11:#1d2731;
     --Color12:#000000;
+    --Color13:#af473c;
 }
 *{
     padding: 0px;
@@ -35,7 +36,7 @@ body{
 #Header h1{
     font-family: 'helvetica';
     color: var(--Color1);
-    /*text-shadow: 2px 1px var(--Color0);*/
+    text-shadow: 3px 3px 2px var(--Color0);*/
 }
 #Header nav{
     width: 50vw;
@@ -229,6 +230,13 @@ body{
     transition: 5s linear;
     overflow: hidden;
     padding: 3% 2%;
+    font-family: sans-serif;
+}
+#Note p{
+    font-family: 'arial';
+}
+#Note p span{
+    color: var(--Color13);
 }
 #Home{
     text-decoration: none;
