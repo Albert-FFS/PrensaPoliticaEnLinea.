@@ -64,7 +64,7 @@ body{
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing:0.12em; 
-    border-radius: 1%;
+    border-radius: 3%;
 } 
 #Logo{
     position: absolute;
