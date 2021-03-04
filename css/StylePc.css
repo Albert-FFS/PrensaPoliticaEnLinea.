@@ -1,15 +1,4 @@
-:root{
-    --Color1:#000000;
-    --Color2:#303030;
-    --Color3:#5b5b5b;
-    --Color4:#1a237e;
-    --Color5:#5c6bc5;
-    --Color6:#9fa8da;
-    --Color7:#c5cae9;
-    --Color8:#FFFFFF;
-}
 h1{
-    color:  var(--Color7);
     font-size: 3.7em;
 }
 #Logo{
@@ -18,7 +7,6 @@ h1{
 .Cards h3{
     font-size: 1em;
     z-index: 1;
-    background:  var(--Color6);
     border-radius: 0.2em;
     padding:0.2em 1em ;
 }
@@ -38,8 +26,6 @@ h1{
     justify-content: center;
     align-items: center;
     position: relative;
-    background: var(--Color6);
-    border-radius: 5%;
     transition: 5s linear;
     overflow: hidden;
     padding: 3% 2%;

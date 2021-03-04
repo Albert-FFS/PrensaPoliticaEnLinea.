@@ -1,15 +1,4 @@
-:root{
-    --Color1:#000000;
-    --Color2:#303030;
-    --Color3:#5b5b5b;
-    --Color4:#1a237e;
-    --Color5:#5c6bc5;
-    --Color6:#9fa8da;
-    --Color7:#c5cae9;
-    --Color8:#FFFFFF;
-}
 h1{
-    color:  var(--Color7);
     font-size: 2.3em;
 }
 #Logo{
@@ -40,7 +29,6 @@ h1{
 .Cards h3{
     font-size: 0.5em;
     z-index: 1;
-    background:  var(--Color6);
 }
 .Cards a h2{
     font-size: 1.25em;
